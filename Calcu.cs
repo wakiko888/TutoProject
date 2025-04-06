@@ -46,6 +46,10 @@ namespace Tuto
         /// <returns>Number 1 / Number 2</returns>
         public int Division(int nb1, int nb2)
         {
+            if (nb2 == 0)
+            {
+                return 0;
+            }
             return nb1 / nb2;
         }
 
