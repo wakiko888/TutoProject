@@ -1,8 +1,8 @@
 using System;
 
-namespace C#
+namespace Tuto
 {
-    public class Calc
+    public class Calcu
     {
         /// <summary>
         /// Add 2 int (Number 1 and Number 2) into another int.
@@ -10,9 +10,9 @@ namespace C#
         /// <param name="nb1">Number 1</param>
         /// <param name="nb2">Number 2</param>
         /// <returns>Number 1 + Number 2</returns>
-        public int addition(int nb1 int nb2)
+        public int addition(int nb1, int nb2)
         {
-            return nb1 + nb2
+            return nb1 + nb2;
         }
 
 
@@ -22,9 +22,9 @@ namespace C#
         /// <param name="nb1">Number 1</param>
         /// <param name="nb2">Number 2</param>
         /// <returns>Number 1 - Number 2</returns>
-        public int Substraction(int nb1 int nb2)
+        public int Substraction(int nb1, int nb2)
         {
-            return nb1 - nb2
+            return nb1 - nb2;
         }
 
         /// <summary>
@@ -33,9 +33,9 @@ namespace C#
         /// <param name="nb1">Number 1</param>
         /// <param name="nb2">Number 2</param>
         /// <returns>Number 1 X Number 2</returns>
-        public int multiplication(int nb1 int nb2)
+        public int multiplication(int nb1, int nb2)
         {
-            return nb1 * nb2
+            return nb1 * nb2;
         }
 
         /// <summary>
@@ -44,9 +44,9 @@ namespace C#
         /// <param name="nb1">Number 1</param>
         /// <param name="nb2">Number 2</param>
         /// <returns>Number 1 / Number 2</returns>
-        public int Division(int nb1 int nb2)
+        public int Division(int nb1, int nb2)
         {
-            return nb1 / nb2
+            return nb1 / nb2;
         }
 
         /// <summary>
@@ -55,10 +55,9 @@ namespace C#
         /// <param name="nb1">Number 1</param>
         /// <param name="nb2">Number 2</param>
         /// <returns>Number 1 % Number 2</returns>
-        public int addition(int nb1 int nb2)
+        public int Modulo(int nb1, int nb2)
         {
-            return nb1 % nb2
+            return nb1 % nb2;
         }
-
     }
 }
